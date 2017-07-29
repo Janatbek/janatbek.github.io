@@ -1,6 +1,10 @@
 # ClientPanel
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.1.
+Clien Panel App.
+
+* Firebase
+* Angular 4
+
 
 ## Development server
 
