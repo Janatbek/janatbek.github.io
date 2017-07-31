@@ -35,9 +35,7 @@ export class ClientDetailsComponent implements OnInit {
     
   }
 
-  updateBalance(id:string){
-    console.log(id);
-    
+  updateBalance(id:string){    
     this.clientService.updateClient(this.id, this.client);
     this.flashMessagesService.show('Balance Updated', {cssClass: 'alert-success', timeout: 4000 });
     this.router.navigate(['/client/' + this.id]);
